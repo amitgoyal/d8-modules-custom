@@ -5,3 +5,11 @@ hello:
         _title: 'Hello D8'
     requirements:
         _permission: 'access content'
+
+hello_world:
+    path: /hello-world
+    defaults:
+        _content: '\Drupal\hello\Controller\HelloController::world'
+        _title: 'Hello World'
+    requirements:
+        _permission: 'access content'

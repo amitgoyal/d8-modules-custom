@@ -1,4 +1,6 @@
 name: Hello
 type: module
 core: 8.x
-description: Drupal 8 Custom Hello Module.
+description: 'Drupal 8 Custom Hello Module.'
+package: Custom
+version: 1.0
