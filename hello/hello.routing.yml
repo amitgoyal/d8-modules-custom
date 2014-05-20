@@ -23,7 +23,7 @@ hello_user:
         _permission: 'access content'
 
 hello_setting:
-    path: /hello-setting
+    path: /admin/config/development/hello-setting
     defaults:
         _form: '\Drupal\hello\Form\HelloSettingsForm'
         _title: 'Hello Setting'

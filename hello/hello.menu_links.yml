@@ -1,5 +1,11 @@
 hello_world:
-    title: 'Hello World'
-    weight: -11
-    route_name: hello_world
-    menu_name: account
+  title: 'Hello World'
+  weight: -11
+  route_name: hello_world
+  menu_name: account
+
+hello_setting:
+  title: 'Hello Setting'
+  route_name: hello_setting
+  parent: system.admin_config_development
+  description: 'Settings for Hello module.'
