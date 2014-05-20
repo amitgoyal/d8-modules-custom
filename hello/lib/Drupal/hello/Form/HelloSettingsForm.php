@@ -46,6 +46,8 @@ class HelloSettingsForm extends ConfigFormBase {
     $this->config('hello.settings')
       ->set('message', $form_state['values']['message'])
       ->save();
+
+    parent::submitForm($form, $form_state);
   }
 
 }

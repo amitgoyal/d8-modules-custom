@@ -1,0 +1,4 @@
+hello.settings_form_tab:
+  route_name: hello_setting
+  title: Settings
+  base_route: hello_setting

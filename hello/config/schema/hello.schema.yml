@@ -5,5 +5,6 @@ hello.settings:
   label: 'Hello settings'
   mapping:
     message:
-      type: string
+      type: text
       label: 'Message'
+      # translatable: true

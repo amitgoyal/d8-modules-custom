@@ -1,0 +1,5 @@
+hello_setting:
+    title: 'Hello Setting'
+    base_route_name: hello_setting
+    names:
+      - 'hello.settings'
