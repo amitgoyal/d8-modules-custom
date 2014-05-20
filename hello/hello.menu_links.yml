@@ -4,8 +4,15 @@ hello_world:
   route_name: hello_world
   menu_name: account
 
+hello_index:
+  title: Hello
+  route_name: hello_index
+  parent: system.admin_config
+  description: 'Settings for Hello module.'
+  position: left
+
 hello_setting:
   title: 'Hello Setting'
   route_name: hello_setting
-  parent: system.admin_config_development
+  parent: hello_index
   description: 'Settings for Hello module.'
