@@ -20,4 +20,10 @@ class HelloController extends ControllerBase {
     );
   }
 
+  public function hello_user($name) {
+    $output['#markup'] = $this->t("Hello %name", array('%name' => $name));
+    $output['#title'] = "Hello $name";
+    return ($output);
+  }
+
 }
