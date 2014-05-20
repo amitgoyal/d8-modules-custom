@@ -1,0 +1,9 @@
+# Schema for the configuration files of the Hello module.
+
+hello.settings:
+  type: mapping
+  label: 'Hello settings'
+  mapping:
+    message:
+      type: string
+      label: 'Message'

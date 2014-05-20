@@ -26,4 +26,14 @@ class HelloController extends ControllerBase {
     return ($output);
   }
 
+  public function hello_message() {
+    $hello_settings = $this->config('hello.settings');
+    $message = $hello_settings->get('message');
+    
+    return array(
+      '#type' => 'markup',
+      '#markup' => $message,
+    );
+  }
+
 }
