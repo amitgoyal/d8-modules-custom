@@ -1,0 +1,7 @@
+hello:
+    path: /hello
+    defaults:
+        _content: '\Drupal\hello\Controller\HelloController::welcome'
+        _title: 'Hello D8'
+    requirements:
+        _permission: 'access content'
