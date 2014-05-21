@@ -1,0 +1,18 @@
+<?php
+
+/**
+* @file
+* Module file for hello module..
+*/
+
+/**
+* Implements hook_permission().
+*/
+function hello_permission() {
+  return array(
+    'hello content access' => array(
+       'title' => t('Hello Permission'),
+       'description' => t('Custom permission for hello-user callback.'),
+    ),
+  );
+}

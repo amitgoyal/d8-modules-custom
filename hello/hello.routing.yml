@@ -21,7 +21,7 @@ hello_user:
         _content: '\Drupal\hello\Controller\HelloController::hello_user'
         _title: 'Hello User'
     requirements:
-        _permission: 'access content'
+        _permission: 'hello content access'
 
 hello_index:
   path: '/admin/config/hello-index'
