@@ -12,7 +12,8 @@ hello_world:
         _content: '\Drupal\hello\Controller\HelloController::world'
         _title: 'Hello World'
     requirements:
-        _permission: 'access content'
+        #_permission: 'access content'
+        _access_hello_world: 'TRUE'
 
 hello_user:
     path: '/hello-user/{name}'
